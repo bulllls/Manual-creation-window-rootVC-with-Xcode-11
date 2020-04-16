@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  RSViewController.h
 //  ManualCreationOfRootVC
 //
 //  Created by Ruslan on 4/16/20.
@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+NS_ASSUME_NONNULL_BEGIN
 
+@interface RSViewController : UIViewController
 
 @end
 
+NS_ASSUME_NONNULL_END
