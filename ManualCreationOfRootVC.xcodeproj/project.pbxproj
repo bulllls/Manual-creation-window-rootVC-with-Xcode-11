@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		44C8DFB52448BF920021AEDC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C8DFB42448BF920021AEDC /* AppDelegate.m */; };
-		44C8DFB82448BF920021AEDC /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C8DFB72448BF920021AEDC /* SceneDelegate.m */; };
 		44C8DFC02448BF960021AEDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44C8DFBF2448BF960021AEDC /* Assets.xcassets */; };
 		44C8DFC32448BF960021AEDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44C8DFC12448BF960021AEDC /* LaunchScreen.storyboard */; };
 		44C8DFC62448BF960021AEDC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C8DFC52448BF960021AEDC /* main.m */; };
@@ -21,8 +20,6 @@
 		44C8DFB02448BF920021AEDC /* ManualCreationOfRootVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ManualCreationOfRootVC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44C8DFB32448BF920021AEDC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		44C8DFB42448BF920021AEDC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		44C8DFB62448BF920021AEDC /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		44C8DFB72448BF920021AEDC /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		44C8DFBF2448BF960021AEDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		44C8DFC22448BF960021AEDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		44C8DFC42448BF960021AEDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -65,14 +62,12 @@
 			isa = PBXGroup;
 			children = (
 				44C8DFB32448BF920021AEDC /* AppDelegate.h */,
+				44C8DFB42448BF920021AEDC /* AppDelegate.m */,
 				44C8DFCF2448C1B70021AEDC /* XIBViewController.h */,
 				44C8DFD02448C1B70021AEDC /* XIBViewController.m */,
 				44C8DFD12448C1B70021AEDC /* XIBViewController.xib */,
 				44C8DFCC2448C06F0021AEDC /* RSViewController.h */,
 				44C8DFCD2448C06F0021AEDC /* RSViewController.m */,
-				44C8DFB42448BF920021AEDC /* AppDelegate.m */,
-				44C8DFB62448BF920021AEDC /* SceneDelegate.h */,
-				44C8DFB72448BF920021AEDC /* SceneDelegate.m */,
 				44C8DFBF2448BF960021AEDC /* Assets.xcassets */,
 				44C8DFC12448BF960021AEDC /* LaunchScreen.storyboard */,
 				44C8DFC42448BF960021AEDC /* Info.plist */,
@@ -154,7 +149,6 @@
 				44C8DFB52448BF920021AEDC /* AppDelegate.m in Sources */,
 				44C8DFCE2448C06F0021AEDC /* RSViewController.m in Sources */,
 				44C8DFC62448BF960021AEDC /* main.m in Sources */,
-				44C8DFB82448BF920021AEDC /* SceneDelegate.m in Sources */,
 				44C8DFD22448C1B70021AEDC /* XIBViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
